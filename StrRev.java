@@ -8,14 +8,13 @@ public class StrRev  {
         String str = sc.nextLine();
 
         String rev = " ";
-      
-        sc.close();
 
         String[] words = str.split(" ");
 
         for(int i = words.length-1;i>=0;i--){
             rev+=words[i]+" ";
         }
+        sc.close();
 
         System.out.println(rev);
     }
